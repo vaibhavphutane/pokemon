@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { RingLoader } from "react-spinners";
 
 function App() {
-  const url = "https://pokeapi.co/api/v2/pokemon?limit=100";
+  const url = "https://pokeapi.co/api/v2/pokemon?limit=20";
   const [pokemons, setPokemons] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const color = "#2e4595";
