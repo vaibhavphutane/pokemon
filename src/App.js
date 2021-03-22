@@ -26,7 +26,7 @@ function App() {
     setPokemons(pokes);
     setIsLoading(false);
   };
-  
+
   useEffect(() => {
     getPokeData();
   }, [url]);
